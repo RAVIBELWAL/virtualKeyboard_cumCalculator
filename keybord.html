@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="./s.css">
+        <script type="text/javascript" src="./s.js"></script>
+    </head>
+    <body>
+        <br>
+        <div><input type="text" id="io" placeholder="Type Something / Add Or Substract Something" value=""></div>
+        <div><br></div>
+        <div class="row">
+            
+            <button onclick="update('1')">1</button>
+            <button onclick="update('2')">2</button>
+            <button onclick="update('3')">3</button>
+            <button onclick="update('4')">4</button>
+            <button onclick="update('5')">5</button>
+            <button onclick="update('6')">6</button>
+            <button onclick="update('7')">7</button>
+            <button onclick="update('8')">8</button>
+            <button onclick="update('9')">9</button>
+            <button onclick="update('0')">0</button>
+            <button onclick="sub('-')">-</button>
+            <button onclick="add('+')">+</button>
+        </div>
+    
+        <div class="row">
+            <button onclick="update('Q')">Q</button>
+            <button onclick="update('W')">W</button>
+            <button onclick="update('E')">E</button>
+            <button onclick="update('R')">R</button>
+            <button onclick="update('T')">T</button>
+            <button onclick="update('Y')">Y</button>
+            <button onclick="update('U')">U</button>
+            <button onclick="update('I')">I</button>
+            <button onclick="update('O')">O</button>
+            <button onclick="update('P')">P</button>
+        </div>
+        <div class="row">
+            <button onclick="update('A')">A</button>
+            <button onclick="update('S')">S</button>
+            <button onclick="update('D')">D</button>
+            <button onclick="update('F')">F</button>
+            <button onclick="update('G')">G</button>
+            <button onclick="update('H')">H</button>
+            <button onclick="update('J')">J</button>
+            <button onclick="update('K')">K</button>
+            <button onclick="update('L')">L</button>
+        </div>
+        <div class="row">
+            <button onclick="update('Z')">Z</button>
+            <button onclick="update('X')">X</button>
+            <button onclick="update('C')">C</button>
+            <button onclick="update('V')">V</button>
+            <button onclick="update('B')">B</button>
+            <button onclick="update('N')">N</button>
+            <button onclick="update('M')">M</button>
+        </div>
+        <div class="row">  
+            <button id="space" onclick="update(' ')">_</button>
+            <button id="clear" onclick="clean()" style="background-color:rgb(0, 0, 0);"> Clear </button>
+        </div>
+        
+        <div class="row">
+            <button id="cap"onclick="cap()" style="background-color:rgb(180, 29, 29);">CAP</button>
+        </div>
+
+    </body>
+</html>
